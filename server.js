@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
-app.listen(4000, () => console.log("app is running on 4000"));
+app.listen(4000, () => console.log("app is running on 40000"));
 
 const mysql = require("mysql");
 var connection = mysql.createConnection({
